@@ -8,8 +8,7 @@ const countAddBtn = document.getElementById("add")
 countElement.innerText = count;
 
 countSubtractBtn.addEventListener("click", () => {
-    count--;
-    countElement.innerText = count;
+    alert("NO WAYYYYY!!! YOU CANNOT REDUCE BODY COUNT!!!");
 })
 
 
