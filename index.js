@@ -1,6 +1,5 @@
 let count = 0;
 
-
 const countElement = document.getElementById("count")
 const countSubtractBtn = document.getElementById("alert")
 const countAddBtn = document.getElementById("add")
@@ -8,7 +7,7 @@ const countAddBtn = document.getElementById("add")
 countElement.innerText = count;
 
 countSubtractBtn.addEventListener("click", () => {
-    alert("NO WAYYYYY!!! YOU CANNOT REDUCE BODY COUNT!!!");
+    alert("NO WAYYYYY!!! YOU CANNOT REDUCE YOUR BODY COUNT!!!");
 })
 
 countAddBtn.addEventListener("click", () => {
