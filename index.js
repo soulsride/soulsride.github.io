@@ -11,7 +11,6 @@ countSubtractBtn.addEventListener("click", () => {
     alert("NO WAYYYYY!!! YOU CANNOT REDUCE BODY COUNT!!!");
 })
 
-
 countAddBtn.addEventListener("click", () => {
     count++;
     countElement.innerText = count;
