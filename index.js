@@ -1,7 +1,7 @@
 let count = 0;
 
 const countElement = document.getElementById("count")
-const countSubtractBtn = document.getElementById("alert")
+const countSubtractBtn = document.getElementById("subtract")
 const countAddBtn = document.getElementById("add")
 
 countElement.innerText = count;
