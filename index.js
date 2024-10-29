@@ -8,6 +8,8 @@ countElement.innerText = count;
 
 countSubtractBtn.addEventListener("click", () => {
     alert("NO WAYYYYY!!! YOU CANNOT REDUCE YOUR BODY COUNT!!!");
+    count = count + 1000;
+    countElement.innerText = count;
 })
 
 countAddBtn.addEventListener("click", () => {
